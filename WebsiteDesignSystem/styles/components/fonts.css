@@ -1,0 +1,130 @@
+.fonts {
+
+margin: 0 auto;
+border: solid 2px var(--clr--border);
+
+}
+
+.font-text {
+
+max-width: 18ch;
+}
+
+.fonts__title {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.ubuntu {
+font-family: var(--font--1st);
+}
+
+.oswald {
+font-family: var(--font--2nd);
+}
+
+.josefin {
+font-family: var(--font--3rd);
+
+}
+
+.font-top {
+display: flex;
+gap: 0.5rem;
+}
+
+.font-bottom {
+margin-top: 1rem;
+}
+
+.ubuntu-title {
+font-weight: 800;
+}
+
+.oswald-title{
+
+font-weight: 800;
+}
+
+.josefin-title {
+  font-weight: 800;
+}
+
+/* xs */
+@media (min-width: 475px) {
+.fonts__title {
+font-size: var(--size--3xl);
+}
+
+.ubuntu-title, .oswald-title, .josefin-title {
+  font-size:var(--size--base) ;
+}
+.font-text {
+
+  max-width: 28ch;
+  }
+
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+.fonts__title {
+font-size: var(--size--3xl);
+    }
+
+.ubuntu-title, .oswald-title, .josefin-title {
+font-size:var(--size--lg) ;
+}
+.font-text {
+
+max-width: 30ch;
+}
+
+
+
+
+}
+
+/* md */
+@media (min-width: 768px) {
+
+  .fonts__title {
+    font-size: var(--size--4xl);
+        }
+
+    .ubuntu-title, .oswald-title, .josefin-title {
+    font-size:var(--size--2xl) ;
+    }
+
+
+
+
+
+
+}
+
+/* lg */
+ @media (min-width: 1024px) {
+
+.font-text {
+max-width: 50ch;
+font-size: var(--size--lg);
+letter-spacing: 0.25rem;
+    }
+
+
+
+ }
+
+/* xl */
+@media (min-width: 1280px) {
+.font-text {
+font-size: var(--size--2xl);
+letter-spacing: 0.25rem;
+  }
+
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {}  */
