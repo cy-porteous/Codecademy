@@ -67,7 +67,7 @@ display: none;
 }
 
 .header__phone-btn:hover {
-color: var(--clr--slate400);
+color: var(--clr--green900);
 }
 
 .header__phone-btn-icon {
@@ -94,7 +94,7 @@ vertical-align: middle;
 }
 
 .header__email-btn:hover{
-color: var(--clr--slate400);
+color: var(--clr--green900);
 }
 
 .header__email-btn-icon {
@@ -138,7 +138,7 @@ width: var(--size--10xl);
 height: var(--size--10xl);
 }
 .header__title {
-font-size: var(--size--4xl);
+font-size: var(--size--5xl);
 }
 .header__email-btn {
 font-size: var(--size--base);

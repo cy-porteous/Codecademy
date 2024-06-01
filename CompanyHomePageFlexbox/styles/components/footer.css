@@ -1,0 +1,7 @@
+.footer {
+
+  font-size: var(--size--xs);
+  text-align: center;
+  color: var(--clr--slate400);
+  text-transform: uppercase;
+}

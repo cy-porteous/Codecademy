@@ -1,0 +1,156 @@
+.services__title {
+font-size: var(--size--2xl);
+color: var(--clr--green900);
+
+}
+
+.services__description {
+font-size: var(--size-sm);
+color: var(--clr--green900);
+margin-top: 0.5rem;
+}
+
+.services__card-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.services__card {
+display: block;
+background: var(--clr--green900) ;
+color: var(--clr--back);
+padding: 0.5rem;
+font-size: var(--size-sm);
+border-radius: 20px;
+margin: 1rem 0.5rem;
+min-width: 300px;
+border: solid 2px var(--clr--slate700);
+box-shadow: 5px 5px 10px var(--clr--slate400);
+}
+
+.card__description {
+font-size: var(--size--sm);
+max-width: 35ch;
+margin: 1rem 0;
+color: var(--clr--slate400);
+
+}
+
+.card__btn {
+
+
+  font-family: var(--font--secondary);
+  font-size: var(--size--sm);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.4s;
+  color: var(--clr--back);
+  background-color: var(--clr--slate400);
+  border-radius: 10px;
+  border: solid 1px var(--clr--back);
+  line-height: 1.75rem;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  text-align: unset;
+
+}
+
+.card__btn:hover {
+  color: var(--clr--green900);
+}
+
+/* xs */
+@media (min-width: 475px) {
+
+.card__description {
+
+  max-width: 45ch;
+}
+
+.services__card {
+width: 400px;
+
+}
+
+
+ }
+
+/* sm */
+@media (min-width: 640px) {
+
+.services__title {
+font-size: var(--size--3xl);
+}
+
+.services__description {
+
+font-size: var(--size--base);
+}
+
+.services__card {
+width: 560px;
+font-size: var(--size--lg);
+}
+
+.card__description {
+font-size: var(--size--base);
+}
+
+.card__btn {
+
+font-size: var(--size--base);
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+
+.services__card {
+width: 360px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+}
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+.services__title {
+font-size: var(--size--4xl);
+}
+
+.services__description {
+font-size: var(--clr--lg);
+max-width: 45ch;
+}
+
+
+.services__card {
+
+height: auto;
+font-size: var(--size--xl);
+width: 400px;
+}
+
+.services__card-container {
+
+margin-top: 2rem;
+}
+
+.card__btn {
+vertical-align: bottom;
+}
+
+
+
+
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {}  */

@@ -20,6 +20,13 @@
 
 <link rel="stylesheet" href="styles/components/header.css">
 <link rel="stylesheet" href="styles/components/mobile-nav.css">
+<link rel="stylesheet" href="styles/components/hero.css">
+<link rel="stylesheet" href="styles/components/services.css">
+<link rel="stylesheet" href="styles/components/testimonials.css">
+<link rel="stylesheet" href="styles/components/contactus.css">
+<link rel="stylesheet" href="styles/components/footer.css">
+
+<link rel="stylesheet" href="styles/utils.css">
 
 <title>CompanyHomePageFlexbox</title>
 </head>
@@ -69,11 +76,97 @@
   </a>
 </nav>
 </div>
-<!-- <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <footer></footer> -->
+
+<section class="hero container section">
+  <div class="hero__box">
+
+    <h1 class="hero__title section">Domestic plumbing made simple by a pair of <br> <em class="hero__letters">p</em>rofessional, <em class="hero__letters">p</em>ersonable & <em class="hero__letters">p</em>olite plumbers. </h1>
+    <span class="hero__description">Whether it's an unexpected emergency or a new bathroom suite, we can help!</span>
+  </div>
+  <div class="btn__box">
+
+    <button class="hero__btn">pricing guide</button>
+  </div>
+</section>
+
+  <section class="services container section">
+    <div class="services__intro">
+      <h2 class="services__title">Plumbing can be complex</h2>
+      <p class="services__description">So let us ease your stress, see below for examples of our work:</p>
+    </div>
+
+    <div class="services__card-container">
+      <div class="services__card">
+        <h3 class="card__title">Bathroom suites</h3>
+        <p class="card__description">We advise on, design and build bathrooms.</p>
+        <button class="card__btn">browse</button>
+      </div>
+      <div class="services__card">
+        <h3 class="card__title">Boilers & heating</h3>
+        <p class="card__description">All aspects of heating carried out, breakdowns to boiler installs, we have it covered.</p>
+        <button class="card__btn">browse</button>
+      </div>
+      <div class="services__card">
+        <h3 class="card__title">Maintenance</h3>
+        <p class="card__description">Sometimes the unexpected plumbing problem happens, we'll attend your home to diagnose and resolve.</p>
+        <button class="card__btn">issues we cover</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="testi container section">
+    <h2 class="testi__title">Reputation is everything.</h2>
+    <p class="testi__description">Looking for trustworthy tradespeople can be a job in itself, see what our previous customers have to say about us.</p>
+    <div class="testi__box">
+
+      <div class="t-card">
+        <h3 class="t-card__author">John Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">Jack Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">Jane Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">Julie Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">Jackie Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">Jennifer Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">James Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+
+      <div class="t-card">
+        <h3 class="t-card__author">J-Lo Doe</h3>
+        <p class="t-card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quas molestias minima officia in explicabo asperiores odio natus dolores hic numquam aliquid eveniet necessitatibus rem ducimus, impedit recusandae! Cumque, eius.</p>
+      </div>
+  </section>
+
+  <section class="reach-out container section">
+    <h3 class="reach-out__title">Reach out</h3>
+    <p class="reach-out__description">Whether you're plannig to start a project, have a general plumbing question or just want to say hi, our inbox is always open so feel free to reach out and we will get back to you as soon as possible.</p>
+    <button class="reach-out__btn">Reach out</button>
+  </section>
+
+  <footer class="footer container section">PPP Plumbing</footer>
   <script src="SRC/main.js" type="module"></script>
 </body>
 </html>
