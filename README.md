@@ -1,2 +1,2 @@
 # Codecademy
-This is a repo for the Code Academy Front End Engineer career path and associated projects
+This is a repo for the Codecademy Front End Engineer career path and associated projects
